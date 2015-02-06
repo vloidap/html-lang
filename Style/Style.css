@@ -1,25 +1,22 @@
 ﻿body {
-  width: 712px;      /* 2x (LC fullwidth +
+  width: 1000px;      /* 2x (LC fullwidth +
                             CC padding) + RC fullwidth */
 }
 #header {
     background-color:black;
     color:white;
     text-align:center;
-    padding:5px;
 }
 #container {
-  padding-left: 0px;   /* LC width */
-  padding-right: 10px;  /* RC width */
-  height: 900px;
+  background-color: LightGrey;
+  height: 1326px;
+  position: relative;
 }
 #container .column {
-  position: relative;
   float: left;
 }
 #center 
 {
-  padding: 10px 10px;    /* CC padding */
   width: 100%;
 }
 #footer {
@@ -27,5 +24,7 @@
     color:white;
     clear:both;
     text-align:center;
-    padding:5px; 
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }
